@@ -14,6 +14,7 @@ function iterativeLog(array) {
 function iterate(callback) {
   var array = new Array()
   array = ["The", "Array", "Can Not", "Be", "Empty!!!"]
+  array.forEach(callback)
   return array
 }
 
